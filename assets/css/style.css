@@ -1,0 +1,146 @@
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: 14px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4aaaa5;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+p {
+    padding: 20px;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    float: left;
+    max-width: 400px;
+}
+
+header {
+
+    height: 55px;
+    padding: 0px;
+    margin-top: -30px;
+    margin: auto;   
+ 
+
+    color: #333;    
+    background: #ffffff;
+    border-bottom: 2px solid grey;  
+}
+
+.nav-main {
+    width: 960px;
+    margin: auto;  
+}
+
+.nav-left {
+    background-color: #4aaaa5;
+    float: left;
+}
+
+@media (max-width: 980px) {
+   
+    .nav-left {
+        float: none;
+    }
+
+
+    .nav-right {
+    
+        float: none;
+        margin-left: 460px;
+
+    }
+
+.nav-right {
+    
+    float: left;
+    margin-left: 460px;
+
+
+}
+
+h4 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-main {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/floor-tile.png");
+    padding:30px;
+}   
+
+.body-box {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;    
+    max-width: 960px;
+    min-height: 500px;
+    background: #fdfdfd; 
+    border: 1px solid rgb(10, 10, 10);
+    position: relative;
+}
+
+.body-box-title {
+    display: block;
+    position: relative; 
+    border-bottom: 2px solid #4aaaa5;
+    max-width: 900px;
+}
+
+.body-box2 {
+        display:flex;
+        align-items: center;
+        max-width: 960px;
+}
+
+.body-box-p {
+    max-width: 800px; 
+}
+
+.img-box {
+    width:250px; 
+    height:auto; 
+    margin-left:15px; 
+    float: left; 
+    padding:20px;
+    display: inline
+}
+
+img {
+    width: 100%;
+}
+
+.p-box {
+    float: right;
+    display: inline;
+    max-width: 400px;
+}
+@media (max-width: 980px) {
+    /* .p-box {
+        float: right;
+        display: block;
+        max-width: 400px;
+        background-color: brown; } */
+
+    }
+  
+
+.footer {
+    border-top: 5px solid #4aaaa5;
+    background-color:grey;
+    height: 50px;
+}
+
+.footer-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    text-align: center
+}   
